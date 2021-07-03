@@ -1,0 +1,29 @@
+POST http://localhost:8080/registration
+Content-Type: application/x-www-form-urlencoded
+
+name=Test1&username=test1&password=test1
+
+###
+
+POST http://localhost:8080/authorization
+Content-Type: application/x-www-form-urlencoded
+
+username=test21&password=test1
+
+###
+
+POST http://localhost:8080/calc
+Content-Type: application/x-www-form-urlencoded
+
+num1=11&num2=19&operation=sum
+
+###
+
+GET http://localhost:8080/history
+
+###
+
+POST http://localhost:8080/logout
+
+###
+
